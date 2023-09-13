@@ -4,10 +4,18 @@
 
 [python示例](./python-example.py)
 
-```shell
 # 安装依赖
+```
 npm install
-
+```
 # 运行
+```
 npm start
+```
+# docker
+```
+docker pull qimooo/nsfwjs-api:latest
+```
+```
+docker run -p 3000:3000 -d qimooo/nsfwjs-api:latest
 ```
